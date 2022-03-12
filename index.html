@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education4ol</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .mainbox {
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            grid-gap: 17px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+        
+        .box {
+            background-color: white;
+            height: 190px;
+            padding: 5px;
+        }
+        
+        .box h3 {
+            margin-left: 10px;
+        }
+        
+        body {
+            background-color: whitesmoke;
+        }
+        
+        .box1 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            border-top: 5px solid rgb(29, 233, 223);
+            box-shadow: 4px 6px 14px 0px #88a9c4;
+        }
+        
+        .box2 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            border-top: 5px solid red;
+            box-shadow: 4px 6px 14px 0px #88a9c4;
+        }
+        
+        .box3 {
+            grid-row-start: 3;
+            grid-row-end: 5;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            border-top: 5px solid yellow;
+            box-shadow: 4px 6px 14px 0px #88a9c4;
+        }
+        
+        .box4 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            border-top: 5px solid blue;
+            box-shadow: 4px 6px 14px 0px #88a9c4;
+        }
+        
+        @media screen and (max-width:600px) {
+            .box1 {
+                grid-row-start: 1;
+                grid-row-end: 3;
+                grid-column-start: 2;
+                grid-column-end: 2;
+            }
+            .box2 {
+                grid-row-start: 3;
+                grid-row-end: 5;
+            }
+            .box3 {
+                grid-row-start: 5;
+                grid-row-end: 7;
+            }
+            .box4 {
+                grid-row-start: 7;
+                grid-row-end: 9;
+                grid-column-start: 2;
+                grid-column-end: 2;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text" style="text-align: center;">
+        <p style="font-weight: lighter; font-size: xx-large; margin: 3px;">Reliable,efficient delivery</p>
+        <p style="font-weight: bolder; font-size: xx-large; margin: 3px;">Powered by Technology</p>
+        <p>Our Artificial Intelligence powered tools use millions of project data<br>points to ensure that your project is successful</p>
+    </div>
+    <div class="main">
+        <div class="mainbox">
+            <div class="box1 box">
+                <h2 style="margin-left:10px; margin-bottom: 0px;">Superviser</h2>
+                <p style="margin-top: 10px; margin-left: 10px;font-size: small; ">Lorem ipsum, dolor sit amet consectetur<br> adipisicing</p>
+                <img src="mglass.jpg " style="width: 29%; position: relative; left: 210px; top: 6px; " alt="home ">
+            </div>
+            <div class="box2 box">
+                <h2 style="margin-left:10px; margin-bottom: 0px;">Team Builder</h2>
+                <p style=" margin-left: 10px;font-size: small;margin-top: 10px; ">Lorem ipsum, dolor sit amet consectetur<br> adipisicing</p>
+                <img src="home.png" style="width: 21%; position: relative; left: 215px; top: 27px;" alt="home ">
+            </div>
+            <div class="box3 box ">
+                <h2 style="margin-left:10px; margin-bottom: 0px;">Karma</h2>
+                <p style=" font-size: small;margin-left: 10px;margin-top: 10px; ">Lorem ipsum, dolor sit amet consectetur<br> adipisicing</p>
+                <img src="bulb2.png" style="width: 24%; position: relative; left: 207px; top: 14px; " alt="home "></div>
+            <div class="box4 box ">
+                <h2 style="margin-left:10px; margin-bottom: 0px;">Calculator</h2>
+                <p style=" margin-left: 10px;margin-top: 10px;font-size: small; ">Lorem ipsum, dolor sit amet consectetur<br> adipisicing</p>
+                <img src="monitor.jpg " style="width: 23%; position: relative; left: 205px; top: 17px; " alt=" home "></div>
+        </div>
+    </div>
+</body>
+
+</html>
